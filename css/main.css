@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.hero-img{
+    position: absolute;
+    top: 0;
+    background: url(/images/bg-header-mobile.png);
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.container{
+    margin: 2em 3em;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+.logo img{
+    width: 9em;
+}
+h1{
+    margin-top: 2em;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: hsl(210, 10%, 33%);
+}
+.subhead{
+    color: hsl(201, 11%, 66%);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+.cta-btns{
+    text-align: center;
+    margin-top: 5em;
+}
+.cta-btns a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+.primary-cta{
+    margin-bottom: 1.8em;
+    padding: 1.2em 5.5em;
+    background: hsl(171, 66%, 44%);
+    border-radius: 5em;
+}
+.secondary-cta{
+    margin-bottom: 13em;
+    background: hsl(233, 100%, 69%);
+    padding: 1.2em 5.5em;
+    border-radius: 5em;
+}
+h2{
+    margin-top: 2em;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: hsl(210, 10%, 33%);
+}
+.text1{
+    text-align: center;
+}
+.section2{
+    margin-top: 13em;
+}
+.section3{
+    margin-top: 7em;
+}
+.section .image{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.image img{
+    width: 100%;
+    margin-top: 5em;
+}
+.dets{
+    margin-top: 5em;
+    text-align: center;
+}
+h3{
+    margin: 1em 0;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: hsl(210, 10%, 33%);
+}
+.dets img{
+    width: 3.3em;
+}
+.section4 img{
+    margin-top: 5em;
+}
+.section4{
+    margin-top: 4em;
+    text-align: center;
+    margin-bottom: 12em;
+}
+.footer{
+    text-align: center;
+    background: #f7f7f7;
+    padding: 2em;
+}
+.footer-logo img{
+    width: 4em;
+    margin-bottom: 3em;
+}
+.footer-action p{
+    margin-bottom: 2em;
+    font-size: 1.4rem;
+    color: hsl(201, 11%, 66%);
+}
+.socials img{
+    width: 2em;
+}
+.socials{
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+@media (min-width: 580px) {
+    .text.container{
+        margin: 2em;
+    } 
+    .brands img{
+        width: 6em;
+    }  
+}
+
+@media (min-width: 768px) {
+    .container{
+        margin: 2em 6em;
+    }
+    .hero-img{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background: url(/images/bg-header-desktop.png);
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+    }
+    .logo img{
+        width: 6em;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    .subhead{
+        font-size: .9rem;
+    }
+    .cta-btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: unset;
+        gap: 1em;
+        margin-top: 2em;
+    }
+    .cta-btns a{
+        font-size: .8rem;
+    }
+    .primary-cta{
+        margin: unset;
+        padding: .8em 2.5em;
+    }
+    .secondary-cta{
+        margin: unset;
+        padding: .8em 2.5em;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    .Main h2{
+        margin-top: 3.5em;
+    }
+    .text.container{
+        margin-top: unset;
+    }
+    .section{
+        display: flex;
+        align-items: center;
+    }
+    .section .subhead{
+        padding: unset;
+        text-align: left;
+    }
+    .section h3{
+        text-align: left;
+    }
+    .section .image{
+        margin: unset;
+        position: relative;
+        left: -2em;   
+    }
+    .section .image img{
+        margin-top: 1em;
+    }
+    .section2{
+        margin-top: 6em;
+    }
+    .section3{
+        margin-top: 4em;
+    }
+    .detail{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .detail .subhead{
+        padding: unset;
+    }
+    .dets{
+        flex-basis: 25%;
+    }
+    .dets img{
+        width: 2.3em;
+    }
+    .section4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7em;
+    }
+    .brands{
+        flex-basis: 25%;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+    .section5{
+        margin-bottom: 6em;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: self-start;
+        gap: 3em;
+    }
+    .footer-action{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        gap: 5em;
+    }
+    .socials{
+        margin: unset;
+    }
+    .footer-action p{
+        margin-bottom: .8em;
+    }
+    .footer .container{
+        margin-bottom: unset;
+    }
+    .footer-logo img{
+        margin: unset;
+    }
+
+}
